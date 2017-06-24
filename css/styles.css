@@ -1,0 +1,36 @@
+img, embed, object, video {
+	max-width: 100%;
+}
+
+hr {
+	color: #7d97ad;
+}
+
+/*Header Elements*/
+#logo {
+	width: 100px;
+	float:left;
+}
+
+#site_name {
+	float: right;
+	text-align: right;
+	color: #2d3c49;
+	font-family: Helvetica, Arial;
+	padding-right: 20px;
+}
+
+
+/*Body Elements*/
+#main_img {
+	/*height: 500px;*/
+}
+
+
+/*Media Queries*/
+@media screen and (min-width:1150px) {
+	#container {
+		width: 1150px;
+		margin: auto;
+	}
+}
