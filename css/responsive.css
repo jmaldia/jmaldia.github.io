@@ -1,0 +1,31 @@
+/*Media Queries*/
+@media screen and (min-width:1250px) {
+	#container {
+		width: 1150px;
+		margin: auto;
+	}
+
+	.sample_work {
+		margin: 10px auto;
+	}
+}
+
+@media screen and (min-width:851px) {
+	.sample_work {
+		margin: 15px auto;
+	}
+}
+
+@media screen and (max-width:850px) {
+	.sample_work {
+		max-width: 46%;
+		margin: 15px auto;
+	}
+}
+
+@media screen and (max-width:550px) {
+	.sample_work {
+		max-width: 100%;
+		margin: 10px 0;
+	}
+}
