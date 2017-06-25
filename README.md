@@ -1,5 +1,25 @@
 # Jon Maldia | Portfolio
 
-Udacity Nanodegree project 2. Portfolio Site. 
+Visit the site at [http://jmaldia.github.io/](http://jmaldia.github.io/) to see it in action. 
 
-Visit the site at http://jmaldia.github.io/
+This site was created as part of the Udacity Nanodegree Full Stack Developer program. It is a Portfolio site that showcases my projects. It is a reponsive site that has multiple breakpoints. 
+
+
+
+### Files Structure
+
+css - Folder that holds all the CSS files
+
+img - Folder that holds all the images used on the site
+
+index.html - This is the main page. This is the only page right now. It has a Main Image and then a list of featured projects. The Projects are linked to the respective live sites. 
+
+styles.css - Main CSS file that dictates the look of the site
+
+responsive.css - CSS file that has all the media queries to make the site responsive
+
+### Screenshot
+
+![alt text](https://d1ax1i5f2y3x71.cloudfront.net/items/3Z00212B1I252t462z1Z/Image%202017-06-25%20at%207.13.48%20PM.png?X-CloudApp-Visitor-Id=657003da7136d78ee538e43736e4d9fa&v=fd1c4781 "Jon Maldia Portfolio Site Screenshot 1")
+
+![alt text](https://d1ax1i5f2y3x71.cloudfront.net/items/1m382Q1O1Y2P3k412V2W/Image%202017-06-25%20at%207.14.02%20PM.png?X-CloudApp-Visitor-Id=657003da7136d78ee538e43736e4d9fa&v=d2fae166 "Jon Maldia Portfolio Site Screenshot 2")
