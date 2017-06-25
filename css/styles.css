@@ -3,10 +3,6 @@ img, embed, object, video {
 	max-width: 100%;
 }
 
-hr {
-	color: #7d97ad;
-}
-
 /*Header Elements*/
 #logo {
 	width: 100px;
@@ -17,7 +13,7 @@ hr {
 	float: right;
 	text-align: right;
 	color: #2d3c49;
-	font-family: Helvetica, Arial;
+	font-family: 'Raleway', sans-serif;
 	line-height: .5em;
 	padding: 15px 20px;
 }
@@ -26,16 +22,17 @@ hr {
 	color: #7d97ad;
 }
 
-
 /*Body Elements*/
 #main_img, #feature_heading {
-	margin: 15px;
+	clear: both;
+	margin: 20px;
 }
 
 #feature_heading {
 	padding: 30px 0 0 0;
 	text-align: center;
-	font-family: Helvetica, Arial;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 	color: #2d3c49;
 }
 
@@ -51,7 +48,6 @@ hr {
 	background-color: #333;
 	border: 1px solid #cecece;
 	border-radius: 5px;
-	font-family: Helvetica, Arial;
 	color: #fff;
 	max-width: 29%;
 }
@@ -59,11 +55,18 @@ hr {
 .sample_work, .sample_work  a, .sample_work a:visited, .sample_work a:hover {
 	color: #fff;
 	text-decoration: none;
-	line-height: .5em;
+	line-height: .75em;
 }
 
 .sample_work h3 {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+}
+
+.sample_work p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	padding-bottom: 5px;
 }
 
 #site_footer {
