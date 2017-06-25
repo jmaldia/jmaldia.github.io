@@ -1,2 +1,5 @@
 # jonmaldiaportfoliosite
-Udacity Nanodegree project 2. Protfolio Site. 
+
+Udacity Nanodegree project 2. Portfolio Site. 
+
+Visit the site at http://jmaldia.github.io/
