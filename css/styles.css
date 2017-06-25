@@ -9,7 +9,7 @@ img, embed, object, video {
 	float:left;
 }
 
-#site_name {
+#site-name {
 	float: right;
 	text-align: right;
 	color: #2d3c49;
@@ -18,19 +18,22 @@ img, embed, object, video {
 	padding: 15px 20px;
 }
 
-#site_name h3 {
+#site-name h3 {
 	color: #7d97ad;
 }
 
 /*Body Elements*/
-#main_img, #feature_heading {
+#main-img, #feature-heading {
 	clear: both;
 	margin: 20px;
 }
 
-#feature_heading {
-	padding: 30px 0 0 0;
+#featured-work {
 	text-align: center;
+}
+
+#feature-heading {
+	padding: 30px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	color: #2d3c49;
@@ -43,8 +46,7 @@ img, embed, object, video {
 }
 
 /*Box Element for each Project*/
-.sample_work {
-	text-align: center;
+.sample-work {
 	background-color: #333;
 	border: 1px solid #cecece;
 	border-radius: 5px;
@@ -52,24 +54,24 @@ img, embed, object, video {
 	max-width: 29%;
 }
 
-.sample_work, .sample_work  a, .sample_work a:visited, .sample_work a:hover {
+.sample-work, .sample-work  a, .sample-work a:visited, .sample-work a:hover {
 	color: #fff;
 	text-decoration: none;
 	line-height: .75em;
 }
 
-.sample_work h3 {
+.sample-work h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
 
-.sample_work p {
+.sample-work p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	padding-bottom: 5px;
 }
 
-#site_footer {
+#site-footer {
 	background-color: #222;
 	font-family: Helvetica, Arial;
 	color: #fff;

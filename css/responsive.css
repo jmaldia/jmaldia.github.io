@@ -5,23 +5,23 @@
 		margin: auto;
 	}
 
-	.sample_work {
+	.sample-work {
 		margin: 10px auto;
 	}
 }
 
 @media screen and (min-width:851px) {
-	.sample_work {
+	.sample-work {
 		margin: 15px auto;
 	}
 
-	.sample_work p {
+	.sample-work p {
 		margin: 10px auto;
 	}
 }
 
 @media screen and (max-width:850px) {
-	.sample_work {
+	.sample-work {
 		max-width: 46%;
 		margin: 15px auto;
 		font-size: 11px;
@@ -29,11 +29,11 @@
 }
 
 @media screen and (max-width:550px) {
-	#main_img {
+	#main-img {
 		margin: 0;
 	}
 
-	.sample_work {
+	.sample-work {
 		max-width: 100%;
 		margin: 10px 0;
 	}
