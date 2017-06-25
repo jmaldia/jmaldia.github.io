@@ -1,4 +1,4 @@
-# jonmaldiaportfoliosite
+# Jon Maldia | Portfolio
 
 Udacity Nanodegree project 2. Portfolio Site. 
 
