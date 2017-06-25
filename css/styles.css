@@ -65,3 +65,12 @@ hr {
 .sample_work h3 {
 	font-size: 16px;
 }
+
+#site_footer {
+	background-color: #222;
+	font-family: Helvetica, Arial;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 75px;
+}
