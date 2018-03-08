@@ -1,90 +1,159 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<meta charset="utf-8">
-	
-	<title>Jon Maldia | Web Developer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset=utf-8>
+	<title>jon_maldia_developer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOAS      acx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet" />
 
-<!-- Stylesheets -->
-	<link href="css/styles.css" rel="stylesheet" />
-	<link href="css/responsive.css" rel="stylesheet" />
-
-<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRaleway" rel="stylesheet">
+	<!-- SLOW SCROLL -->
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
 </head>
   
 <body>
-
-	<div id="container">
-
-<!-- Header: Logo and Site Name and Description -->
-		<header>
-			<div id="logo">
-				<a href="index.html">
-					<img src="img/logo.jpg" alt="Logo">
-				</a>
-			</div>
-			<div id="site-name">
-				<h1>Jon Maldia</h1>
-				<h3>Web Developer</h3>
-			</div>
-		</header>
-
-
-<!-- Main Image -->
-		<section id="main-img">
-			<img src="img/computer.jpg" alt="Main Image">
-		</section>
-
-<!-- Sample Work -->
-		<section id="featured-work">
-			<h2 id="feature-heading">Featured Work</h2>
-
-			<div id="collection">
-				<article class="sample-work">
-					<a href="http://bluecatplay.tencadence.com/" target="_blank">
-						<img src="img/bluecat.png" alt="Bluecat Play Website">
-						<h3>Bluecat Play</h3>
-						<p>A political play in NYC</p>
-					</a>
-				</article>
-				
-				<article class="sample-work">
-					<a href="http://ccc.tencadence.com/" target="_blank">
-						<img src="img/ccc.png" alt="Children's Creative Center Website">
-						<h3>Children's Creative Center</h3>
-						<p>A website mockup for a Chicago Daycare</p>
-					</a>
-				</article>
-
-				<article class="sample-work">
-					<a href="http://jonmaldia.com" target="_blank">
-						<img src="img/jonmaldia.png" alt="Jon Maldia Portfolio Site">
-						<h3>Jon Maldia Portfolio Site</h3>
-						<p>An previous version of my portfolio site</p>
-					</a>
-				</article>
-
-				<article class="sample-work">
-					<a href="http://behappy.tencadence.com/" target="_blank">
-						<img src="img/behappy.png" alt="Be Happy Page">
-						<h3>Be Happy</h3>
-						<p>Inspirational page that's responsive</p>
-					</a>
-				</article>
-			</div>
-		</section>
-	</div>
 	
-<!-- Footer -->
-	<footer>
-		<div id="site-footer">
-			<small>© Copyright 2017, Jon Maldia | Ten Cadence</small>
+	<header class="container">		
+		<div class="row">
+			<h3 class="col-sm-4">jon@maldia.net</h3>
+			<nav class="col-sm-8 text-right">
+			    <p><a href="#about">about</a></p>
+			    <p><a href="#portfolio">portfolio</a></p>
+			    <p><a href="#contact">contact</a></p>   
+			</nav>		    
 		</div>
-	</footer>
+	</header>
+
+
+	<!-- ABOUT ME SECTION -->
+	<section id="about" class="jumbotron jumbo-main">
+		<div class="container">
+	      	<div class="row text-center">
+				<h1>jon_maldia_developer</h1>
+		  		<h3>coding + better</h3>
+        		<a class="btn btn-primary" href="#contact" role="button">contact_me</a>
+			</div>	
+		</div>
+	</section>
+
+	<section class="container"> 
+		<div class="row section-padding">
+			<div class="col-sm-4">
+				<img src="https://assets1.consumergoods.com/inline-images/Lego%20Boost.png">
+			</div>
+			<div class="col-sm-8">
+				<p>hi, i'm jon maldia. ever since i was a kid i was obsessed with building. i started out with legos, building elaborate towns and cities for my lego characters. eventually, i discovered programming and i have been hooked since.</p>
+				<p>now, instead of using lego pieces to build stuff, i use loops, functions, and concepts to build and create software that aims to better people's lives.</p>
+				<p>there. you see Lord Vader, she can be reasonable. continue with the operation. you may fire when ready. what? you're far too trusting. dantooine is too remote to make an effective demonstration.but don't worry. we will deal with your rebel friends soon enough. no! commence primary ignition.
+				</p>
+				<p>he says he's the property of obi-wan kenobi, a resident of these parts. and it's a private message for him. quite frankly, sir I don't know what he's talking about. our last master was captain antilles, but with what we've been through, this little r2 unit has become a bit eccentric. obi-wan kenobi? i wonder if he means old ben kenobi? i beg your pardon, sir, but do you know what he's talking about? well, i don't know anyone named obi-wan, but old Ben lives out beyond the dune sea. he's kind of a strange old hermit. i wonder who she is. it sounds like she's in trouble. i'd better play back the whole thing.</p>
+				<p>leave that to me! damn fool. i knew that you were going to say that! who's the more foolish...the fool or the fool who follows him?</p>
+			</div>
+		</div>	
+
+		<div class="row">	
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-9">
+			</div>
+		</div>
+	</section>
+
+
+	<!-- PORTFOLIO SECTION -->
+	<section id="portfolio" class="jumbotron jumbo-portfolio">
+	    <div class="container">
+	      	<div class="row text-center">
+				<h1>portfolio</h1>
+        		<a class="btn btn-primary" href="#contact" role="button">contact_me</a>
+			</div>	
+		</div>
+	</section>
+
+	<section class="container section-padding text-center"> 
+		<div class="row">
+			<div class="col-sm-6">
+                <a href="http://jonmaldia.com/img/numbers-12.jpg" target=_blank>
+                  <img src="http://jonmaldia.com/img/numbers-12.jpg" alt="">
+                  <p>Creating shapes using repition.</p>
+               	</a>
+			</div>
+			<div class="col-sm-6">
+				<a href="http://jonmaldia.com/img/numbers-09.jpg" target=_blank>
+                  <img src="http://jonmaldia.com/img/numbers-09.jpg" alt="">
+                  <p>Drips created using PS brushed.</p>
+               	</a>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="http://jonmaldia.com/img/numbers-06.jpg" target=_blank>
+                  <img src="http://jonmaldia.com/img/numbers-06.jpg" alt="">
+                  <p>Trying to create an 80s style of glows.</p>
+               	</a>
+			</div>
+			<div class="col-sm-6">
+				<a href="http://jonmaldia.com/img/numbers-02.jpg" target=_blank>
+                  <img src="http://jonmaldia.com/img/numbers-02.jpg" alt="">
+                  <p>Playing with blending modes in Photoshop.</p>
+               	</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<a href="http://jonmaldia.com/img/numbers-01.jpg" target=_blank>
+                  <img src="http://jonmaldia.com/img/numbers-01.jpg" alt="">
+                  <p>Experimentation with color and texture.</p>
+               	</a>
+			</div>
+			<div class="col-sm-6">
+				<a href="http://jonmaldia.com/img/numbers-12.jpg" target=_blank>
+                  <img src="http://jonmaldia.com/img/numbers-12.jpg" alt="">
+                  <p>Creating shapes using repition.</p>
+               	</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- CONTACT SECTION -->
+	<section id="contact" class="jumbotron jumbo-mail section-padding">
+		<div class="container">
+	      	<div class="row text-center">
+				<h1>contact</h1>
+			</div>	
+		</div>
+	</section>
+
+	<section class="container"> 
+		<div class="row">
+			<div class="col-sm-2">
+			</div>
+			<div id="contact-form" class="col-sm-8">
+				<div class="_form_121"></div><script src="https://tencadence.activehosted.com/f/embed.php?id=121" type="text/javascript" charset="utf-8"></script>
+			</div>
+			<div class="col-sm-2">
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+	      <div class="row">
+			<p class="col-sm-4">&copy; 2016 Ten Cadence | Founder Jon Maldia</p>
+		    <ul class="col-sm-8">
+		      <li class="col-sm-1"><a href="mailto:jon@maldia.net"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg" alt="email"></a></li>
+		      <li class="col-sm-1"><a href="https://www.github.com/jmaldia"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg" alt="github"></a></li>
+		      <li class="col-sm-1"><a href="https://www.twitter.com/jonmaldia"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg" alt="twitter"></a></li>
+		    </ul>
+	      </div>
+		</div>
+  	</footer>
+
+	<!-- javascript -->
+ 	<!-- <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> -->
+    <!-- <script src='js/bootstrap.min.js'></script> -->
+
 
 </body>
 

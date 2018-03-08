@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+
+/*HEADER*/
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+
+/*SHOWCASE*/
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ecf0f1;
+  height: 750px;
+  text-shadow: 0.05px 0.05px 0.05px #000000;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.jumbo-main {
+  background-image: url("http://jonmaldia.com/img/laptop.jpg");
+}
+
+.jumbo-portfolio {
+  background-image: url("http://jonmaldia.com/img/portfolio-graffiti.jpg");
+}
+.jumbo-mail {
+  background-image: url("http://jonmaldia.com/img/mail.jpg");
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-4,
+.col-md-8 {
+  margin: 0 0 30px;
+}
+
+.col-sm-6 {
+  padding: 20px;
+}
+
+
+/*BUTTON*/
+.btn.btn-primary {
+  border-radius: 0px;
+  border: 0px;
+  color: #ecf0f1;
+  font-size: 1.75rem;
+  text-shadow: none;
+  background-color: #2980b9;
+  padding: 15px 25px;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #16a085;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+/*FORM*/
+._form_121 {
+	padding: 50px 0 100px 0;
+}
+
+button {
+	background-color: #2980b9!important;
+}
+
+
+/*FOOTER*/
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  height: 350px;
+  background-color: #ecf0f1;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
