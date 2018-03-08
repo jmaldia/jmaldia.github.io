@@ -37,7 +37,7 @@ h1 {
   background-size: cover;
   color: #ecf0f1;
   height: 750px;
-  text-shadow: 0.05px 0.05px 0.05px #000000;
+  text-shadow: 1.5px 1.5px 1.5px #333333;
 }
 
 .jumbotron h3 {
@@ -47,13 +47,16 @@ h1 {
 
 .jumbo-main {
   background-image: url("http://jonmaldia.com/img/laptop.jpg");
+  opacity: .90;
 }
 
 .jumbo-portfolio {
   background-image: url("http://jonmaldia.com/img/portfolio-graffiti.jpg");
+  opacity: .90;
 }
 .jumbo-mail {
   background-image: url("http://jonmaldia.com/img/mail.jpg");
+  opacity: .90;
 }
 
 .section-padding {
