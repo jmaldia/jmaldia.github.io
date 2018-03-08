@@ -28,6 +28,7 @@ header p {
 
 h1 {
 	padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
 /*SHOWCASE*/
@@ -46,16 +47,28 @@ h1 {
 }
 
 .jumbo-main {
-  background-image: url("http://jonmaldia.com/img/laptop.jpg");
+  background-image: url("../img/laptop.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   opacity: .90;
 }
 
 .jumbo-portfolio {
-  background-image: url("http://jonmaldia.com/img/portfolio-graffiti.jpg");
+  background-image: url("../img/portfolio-graffiti.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   opacity: .90;
 }
 .jumbo-mail {
-  background-image: url("http://jonmaldia.com/img/mail.jpg");
+  background-image: url("../img/mail.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   opacity: .90;
 }
 
@@ -66,6 +79,11 @@ h1 {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+
+.profilepic img {
+  border-radius: 50px;
+
 }
 
 .col-md-4,
