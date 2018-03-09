@@ -2,15 +2,14 @@
 <html>
 <head>
 	<meta charset=utf-8>
-	<title>jon_maldia_developer</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title>>_ Jon Maldia | Developer</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="css/main.css" rel="stylesheet" />
+	<!-- Font Awesome -->
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
-	<!-- SLOW SCROLL -->
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.js"></script>
-  	<script type="text/javascript" src="js/main.js"></script>
-  	
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109181346-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -19,28 +18,41 @@
     
       gtag('config', 'UA-109181346-1');
     </script>
-
 </head>
   
 <body>
-	
-	<header class="container">		
-		<div class="row">
-			<h3 class="col-sm-4">Jon Maldia</h3>
-			<nav class="col-sm-8 text-right">
-			    <p><a href="#about">About</a></p>
-			    <p><a href="#portfolio">Portfolio</a></p>
-			    <p><a href="#contact">Contact</a></p>   
-			</nav>		    
-		</div>
-	</header>
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#about"><i class="fas fa-terminal"></i> Jon Maldia</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#about">About </a></li>
+	        <li><a href="#portfolio">Portfolio</a></li>
+	        <li><a href="http://blog.jonmaldia.com">Blog</a></li>
+	        <li><a href="#contact">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 
 
 	<!-- ABOUT ME SECTION -->
 	<section id="about" class="jumbotron jumbo-main">
 		<div class="container">
 	      	<div class="row text-center">
-				<h1>Jon Maldia</h1>
+				<h1><i class="fas fa-terminal"></i> Jon Maldia</h1>
 		  		<h3>Web Developer</h3>
         		<a class="btn btn-primary" href="#contact" role="button">Contact Me</a>
 			</div>	
@@ -49,11 +61,11 @@
 
 	<section class="container"> 
 		<div class="row section-padding">
-			<div class="col-sm-4" class="profilepic">
+			<div class="col-sm-12 profilepic">
 				<img src="img/profilepic.jpg">
 			</div>
-			<div class="col-sm-8">
-				<p>Hi, I'm jon maldia. Ever since I was a kid I was obsessed with building. I started out with legos, building elaborate towns and cities for my lego characters. eventually, I discovered programming and I have been hooked since.</p>
+			<div class="col-sm-12">
+				<p>Hi, I'm Jon Maldia. Ever since I was a kid I was obsessed with building. I started out with legos, building elaborate towns and cities for my lego characters. eventually, I discovered programming and I have been hooked since.</p>
 				<p>Now, instead of using lego pieces to build stuff, I use loops, functions, and concepts to build and create software that aims to better people's lives.</p>
 			</div>
 		</div>	
@@ -71,51 +83,49 @@
 	<section id="portfolio" class="jumbotron jumbo-portfolio">
 	    <div class="container">
 	      	<div class="row text-center">
-				<h1>portfolio</h1>
-        		<a class="btn btn-primary" href="#contact" role="button">contact_me</a>
+				<h1><i class="fas fa-terminal"></i> Portfolio</h1>
+        		<a class="btn btn-primary" href="#contact" role="button">Contact Me</a>
 			</div>	
 		</div>
 	</section>
 
 	<section class="container section-padding text-center"> 
 		<div class="row">
-			<div class="col-sm-6">
-                <a href="http://jonmaldia.com/img/numbers-12.jpg" target=_blank>
-                  <img src="http://jonmaldia.com/img/numbers-12.jpg" alt="">
+			<div class="col-sm-6 col-md-4">
+                <a href="http://jonmaldia.com/img/numbers-12.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="http://jonmaldia.com/img/numbers-12.jpg" alt="" class="img-fluid">
                   <p>Creating shapes using repition.</p>
                	</a>
 			</div>
-			<div class="col-sm-6">
-				<a href="http://jonmaldia.com/img/numbers-09.jpg" target=_blank>
-                  <img src="http://jonmaldia.com/img/numbers-09.jpg" alt="">
+			<div class="col-sm-6 col-md-4">
+				<a href="http://jonmaldia.com/img/numbers-09.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="http://jonmaldia.com/img/numbers-09.jpg" alt="" class="img-fluid">
                   <p>Drips created using PS brushed.</p>
                	</a>
 			</div>
-		</div>	
-		<div class="row">
-			<div class="col-sm-6">
-				<a href="http://jonmaldia.com/img/numbers-06.jpg" target=_blank>
-                  <img src="http://jonmaldia.com/img/numbers-06.jpg" alt="">
+			<div class="col-sm-6 col-md-4">
+				<a href="http://jonmaldia.com/img/numbers-06.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="http://jonmaldia.com/img/numbers-06.jpg" alt="" class="img-fluid">
                   <p>Trying to create an 80s style of glows.</p>
                	</a>
 			</div>
-			<div class="col-sm-6">
-				<a href="http://jonmaldia.com/img/numbers-02.jpg" target=_blank>
-                  <img src="http://jonmaldia.com/img/numbers-02.jpg" alt="">
+		<!-- </div>
+		<div class="row"> -->
+			<div class="col-sm-6 col-md-4">
+				<a href="http://jonmaldia.com/img/numbers-02.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="http://jonmaldia.com/img/numbers-02.jpg" alt="" class="img-fluid">
                   <p>Playing with blending modes in Photoshop.</p>
                	</a>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6">
-				<a href="http://jonmaldia.com/img/numbers-01.jpg" target=_blank>
-                  <img src="http://jonmaldia.com/img/numbers-01.jpg" alt="">
+			<div class="col-sm-6 col-md-4">
+				<a href="http://jonmaldia.com/img/numbers-01.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="http://jonmaldia.com/img/numbers-01.jpg" alt="" class="img-fluid">
                   <p>Experimentation with color and texture.</p>
                	</a>
 			</div>
-			<div class="col-sm-6">
-				<a href="http://jonmaldia.com/img/numbers-12.jpg" target=_blank>
-                  <img src="http://jonmaldia.com/img/numbers-12.jpg" alt="">
+			<div class="col-sm-6 col-md-4">
+				<a href="http://jonmaldia.com/img/numbers-12.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="http://jonmaldia.com/img/numbers-12.jpg" alt="" class="img-fluid">
                   <p>Creating shapes using repition.</p>
                	</a>
 			</div>
@@ -127,7 +137,7 @@
 	<section id="contact" class="jumbotron jumbo-mail section-padding">
 		<div class="container">
 	      	<div class="row text-center">
-				<h1>contact</h1>
+				<h1><i class="fas fa-terminal"></i> Contact</h1>
 			</div>	
 		</div>
 	</section>
@@ -149,19 +159,32 @@
 	      <div class="row">
 			<p class="col-sm-4">&copy; 2016 Ten Cadence | Founder Jon Maldia</p>
 		    <ul class="col-sm-8">
-		      <li class="col-sm-1"><a href="mailto:jon@maldia.net"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg" alt="email"></a></li>
-		      <li class="col-sm-1"><a href="https://www.github.com/jmaldia"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg" alt="github"></a></li>
-		      <li class="col-sm-1"><a href="https://www.twitter.com/jonmaldia"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg" alt="twitter"></a></li>
+		      <li class="col-sm-1">
+		      	<a href="mailto:jon@maldia.net"><i class="fas fa-envelope"></i></a>
+		      </li>
+		      <li class="col-sm-1">
+		      	<a href="https://www.github.com/jmaldia"><i class="fab fa-github"></i></a>
+		      </li>
+		      <li class="col-sm-1">
+		      	<a href="https://codepen.io/jonmaldia"><i class="fab fa-codepen"></i></a>
+		      </li>
+		      <li class="col-sm-1">
+		      	<a href="https://www.twitter.com/jonmaldia"><i class="fab fa-twitter"></i></a>
+		      </li>
 		    </ul>
 	      </div>
 		</div>
   	</footer>
 
-	<!-- javascript -->
- 	<!-- <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> -->
-    <!-- <script src='js/bootstrap.min.js'></script> -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.js"></script>
 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <!-- Custom JS-->
+  	<script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

@@ -29,6 +29,21 @@ header p {
 h1 {
 	padding-bottom: 20px;
   text-transform: uppercase;
+  text-shadow:  0px 3px 3px rgba(47, 54, 64, 0.8),
+                0px 6px 6px rgba(53, 59, 72, 0.5),
+                0px 12px 12px rgba(113, 128, 147, 0.2) ;
+}
+
+/*NAVBAR*/
+.navbar {
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 800px;
 }
 
 /*SHOWCASE*/
@@ -46,30 +61,22 @@ h1 {
   color: #fff;
 }
 
-.jumbo-main {
-  background-image: url("../img/laptop.jpg");
+.jumbo-main, .jumbo-portfolio, .jumbo-mail {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: .90;
+}
+
+.jumbo-main, .jumbo-portfolio, .jumbo-mail {
+  background-image: url("../img/laptop-overlay.jpg");
 }
 
 .jumbo-portfolio {
-  background-image: url("../img/portfolio-graffiti.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: .90;
+  background-image: url("../img/portfolio-graffiti-overlay.jpg");
 }
 .jumbo-mail {
-  background-image: url("../img/mail.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: .90;
+  background-image: url("../img/mail-overlay.jpg");
 }
 
 .section-padding {
@@ -82,8 +89,13 @@ section .row img {
 }
 
 .profilepic img {
-  border-radius: 50px;
+  border-radius: 50%;
+  width: 300px!important;
+}
 
+.profilepic {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .col-md-4,
@@ -132,7 +144,7 @@ button {
 footer {
   font-size: 12px;
   padding: 20px 0;
-  height: 350px;
+  height: 150px;
   background-color: #ecf0f1;
 }
 
@@ -148,4 +160,16 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+.fa-envelope, .fa-github, .fa-codepen, .fa-twitter {
+  font-size: 4rem;
+}
+
+.fab, .fas {
+  padding-right: 10px;
+}
+
+.fa-twitter {
+  padding-right: 0;
 }

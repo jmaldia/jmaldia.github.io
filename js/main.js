@@ -1,8 +1,9 @@
-$(window).load(function(){
+// Slow Load				
+$(document).ready(function(){
 	$('a').click(function(){
 	    $('html, body').animate({
 	        scrollTop: $( $(this).attr('href') ).offset().top
-	    }, 500);
+	    }, 600);
 	    return false;
 	});
 });
